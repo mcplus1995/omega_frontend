@@ -1,0 +1,44 @@
+/***************************
+Add your custom styles below
+****************************/
+
+.bar .logo{ max-height: 50px; }
+
+
+@media all and (max-width: 768px) {
+    .menu1 {
+        margin-bottom: 20px;
+    }
+}
+
+  .bar__module {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    display: flex;
+    align-items: center;
+  }
+  
+   .bar__module ul.menu-horizontal.text-left {
+    padding-top: 1em;
+  }
+  
+    .bar + nav.bar {
+    padding-top: 0.5em;
+  }
+  
+  .bar {
+  padding: 0.55714286em 0;
+  }
+  
+
+.bg--secondary1 {
+  background: #ced5cd;
+}
+
+.bg--tertiery {
+  background: #EEEEEE;
+}
+
+.textbg--yellow {
+  background-color: #ffff00;
+}
